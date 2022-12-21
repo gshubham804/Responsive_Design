@@ -9,8 +9,12 @@ const HeroSection = () => {
         <h1>This is Circular</h1>
         <p>Lorem ipsum dolor sit amet, consectetur.</p>
         <div className="hero-button-cont">
-        <button className='hero-button'>Start</button>
-        <button className='hero-button'>Pause</button>
+          <div className='hero-button hero-button-start'>
+        <button>Start</button>
+        </div>
+        <div className="hero-button hero-button-pause">
+        <button>Pause</button>
+        </div>
         </div>
         </div>
     </div>
