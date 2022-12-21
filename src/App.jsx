@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Component/Footer/Footer';
 import HeroSection from './Component/HeroSection/HeroSection';
 import Navbar from './Component/Navbar/Navbar'
 import Portfolio from './Component/Portfolio/Portfolio';
@@ -11,6 +12,7 @@ function App() {
     <HeroSection/>
     <Service/>
     <Portfolio/>
+    <Footer/>
     </>
   );
 }
