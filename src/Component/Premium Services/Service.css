@@ -1,0 +1,51 @@
+.service-main-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.service-micro-services{
+    margin: 4% 0 5% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:60%;
+}
+
+.service-micro-services-option{
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    margin: 0.5%;
+}
+
+.service-icons{
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.service-micro-services-option>p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .service-micro-services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    .service-micro-services-option{
+        width: 80%;
+    }
+    
+}
