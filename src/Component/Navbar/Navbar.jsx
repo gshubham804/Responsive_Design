@@ -14,11 +14,11 @@ const Navbar = () => {
         if mobile screen ma xa bhane nav-links-mobile add huxa
         */}
         <ul className={Mobile ? "nav-links-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Skills</li>
-            <li>contact</li>
+            <li>SERVICES</li>
+            <li>TEAM</li>
+            <li>PORTFOLIO</li>
+            <li>CAREERS</li>
+            <li>BLOG</li>
         </ul>
         {/* 
         whenever we click on button = setMobile(!Mobile) ==  is mobile oppsite to setMobile 
