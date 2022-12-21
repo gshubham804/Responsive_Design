@@ -1,0 +1,19 @@
+.hero-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: lightsalmon;
+}
+
+.hero-submain{
+border: solid black 1px;
+margin: 12%;
+}
+
+.hero-button-cont{
+    display: flex;
+    justify-content: space-between;
+
+}
